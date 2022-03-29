@@ -1,6 +1,6 @@
 .product{
-    width: 300px;
-    height: 510px;
+    width: 254px;
+    height: 484px;
     border-radius: 8px;
     border: 1px solid rgb(5, 5, 92);
     position: relative;
@@ -10,14 +10,11 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .product img{
-    width: 286px;
-    height: 286px;
+    width: 240px;
+    height: 240px;
     border-radius: 8px;
     margin: 7px;
 }
-<!-- HTML !-->
-<button class="button-84" role="button">Button 84</button>
-
 
 .button-84:active {
   outline: 0;
@@ -40,13 +37,19 @@
     border-radius: 0px 0px 8px 8px;
     position: absolute;
     bottom: 0;
-    opacity: .85;
+    opacity: .82;
     transition: .2s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn-cart:hover{
     background-color: rgb(5, 5, 92);
     color: #fff;
     opacity: 1;
+}
+.btn-cart p{
+    margin-right: 10px;
 }
 .product-info{
     margin: 0px 14px;
