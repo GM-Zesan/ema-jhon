@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(5, 5, 92);
+  background-color: initial;
+  background-image: linear-gradient(#066cd8, rgb(4, 4, 77));
   height: 80px;
   padding: 0px 50px;
 }
@@ -12,9 +13,10 @@
 .navbar li a{
   text-decoration: none;
   margin-left: 30px;
+  font-weight: bold;
   color: #fff;
+  transition: .2s;
 }
 .navbar li a:hover{
-    color:rgb(243, 177, 101);
-    transition: .5s all ease;
+    color: #ea9531;
 }

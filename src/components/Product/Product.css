@@ -1,0 +1,64 @@
+.product{
+    width: 300px;
+    height: 510px;
+    border-radius: 8px;
+    border: 1px solid rgb(5, 5, 92);
+    position: relative;
+    transition: .2s all ease;
+}
+.product:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.product img{
+    width: 286px;
+    height: 286px;
+    border-radius: 8px;
+    margin: 7px;
+}
+<!-- HTML !-->
+<button class="button-84" role="button">Button 84</button>
+
+
+.button-84:active {
+  outline: 0;
+}
+
+.button-84:focus {
+  box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+}
+
+.btn-cart{
+    background-color: initial;
+    background-image: linear-gradient(#066cd8, rgb(4, 4, 77));
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    opacity: .85;
+    transition: .2s all ease;
+}
+.btn-cart:hover{
+    background-color: rgb(5, 5, 92);
+    color: #fff;
+    opacity: 1;
+}
+.product-info{
+    margin: 0px 14px;
+}
+.product-info p{
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+.product-name{
+    font-family: 'Lato';
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 7px;
+}
